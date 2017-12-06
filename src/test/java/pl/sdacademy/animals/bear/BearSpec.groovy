@@ -34,7 +34,7 @@ class BearSpec extends Specification {
         when:
         testBear.pop();
 
-        then:g
+        then:
         testBear.getWeight() == 10 * 0.5
     }
 
