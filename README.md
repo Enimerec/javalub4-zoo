@@ -40,6 +40,7 @@ Wszystkie zadania należy wykonywać metodą TDD - najpierw piszemy niedziałaj�
 
 Niedźwiedź może przybierać lub tracić na wadzę.
 
+<<<<<<< HEAD
 1. Po zjedzeniu posiłku o danej masie, jego waga wzrasta o tę samą wartość. 
 2. Po wypiciu wody (void drink(double waterWeight)) o danej masie, jego waga wzrasta o 3/4 tej wartości.
 3. Po zrobieniu kupy (void poop()) masa misia spada o 5%.
@@ -49,3 +50,16 @@ Niedźwiedzie zapadają w sen zimowy.
 4. Niedźwiedzie czarne śpią (boolean isHibernating) od 20 listopada do 15 marca.
 5. Niedźwiedzie polarna śpią od 5 maja do 10 października.
 5. Karmienie lub pojenie misia w trakcie snu zimowego powinno wyrzucać wyjątek BearHibernatingException.
+=======
+1. Niedźwiedź powinien żyć jeśli jadł ostatnio mniej niż 10 dni temu.
+2. Niedźwiedź może zostać ożywiony po zjedzeniu posiłku. 
+3. Po zjedzeniu posiłku o danej masie, jego waga wzrasta o tę samą wartość. 
+4. Po wypiciu wody (void drink(double waterWeight)) o danej masie, jego waga wzrasta o 3/4 tej wartości.
+5. Po zrobieniu kupy (void poop()) masa misia spada o 5%.
+
+Niedźwiedzie zapadają w sen zimowy. 
+
+6. Niedźwiedzie czarne śpią (boolean isHibernating) od 20 listopada do 15 marca.
+7. Niedźwiedzie polarna śpią od 5 maja do 10 października.
+8. Karmienie lub pojenie misia w trakcie snu zimowego powinno wyrzucać wyjątek BearHibernatingException.
+>>>>>>> 13342cc8319444c5cf8a3ad1ff73165c5f7604cc

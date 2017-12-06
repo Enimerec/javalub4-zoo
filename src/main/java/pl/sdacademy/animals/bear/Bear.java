@@ -16,7 +16,12 @@ public abstract class Bear implements Animal {
         return false;
     }
 
-    public void eat() { }
+    public void eat(int amount) {
+        weight = weight + amount;
+    }
+    public void drink(double waterWeight){
+        weight = (int) (weight + (waterWeight * 0.75));
+    }
 
     @Override
     public int getWeight() {
