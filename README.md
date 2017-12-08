@@ -38,6 +38,9 @@ W projekcie znajdują się 2 foldery src/main/java oraz src/test/java. W każdym
 
 Wszystkie zadania należy wykonywać metodą TDD - najpierw piszemy niedziałający test, później implementację, a następnie polerujemy kod. Zakres zadań celowo jest bardzo prosty. Należy skupić się na sposobie programowania TDD, zamiast na zadaniach.
 
+Testy należy napisać w JUnit i Spock. Najlepiej pisać test po teście, tzn. napisać test do JUnita i Spocka wraz z implementacją
+najpierw do pierwszego zadania przed przejściem do kolejnego.
+
 Niedźwiedź może przybierać lub tracić na wadzę.
 
 1. Niedźwiedź powinien żyć jeśli jadł ostatnio mniej niż 10 dni temu.
@@ -51,4 +54,3 @@ Niedźwiedzie zapadają w sen zimowy.
 6. Niedźwiedzie czarne śpią (boolean isHibernating) od 20 listopada do 15 marca.
 7. Niedźwiedzie polarna śpią od 5 maja do 10 października.
 8. Karmienie lub pojenie misia w trakcie snu zimowego powinno wyrzucać wyjątek BearHibernatingException.
-
