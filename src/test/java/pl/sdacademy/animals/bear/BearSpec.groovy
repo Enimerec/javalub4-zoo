@@ -135,4 +135,15 @@ class BearSpec extends Specification {
         testBear.isAlive()
     }
 
+    def "Beer should throw exception if eat() used during hibernation"(){
+        given:
+        Bear testBear = new BlackBear(3)
+
+        when:
+        testBear.eat(1)
+
+        then:
+        thrown BearHibernatingException
+    }
+
 }

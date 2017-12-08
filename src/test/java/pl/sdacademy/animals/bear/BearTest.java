@@ -7,6 +7,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BearTest {
     @Test
+    public void BeerShouldThrowExceptionIfEatUsedDuringHibernation(){
+        //given
+        Bear bear = new PolarBear(3);
+
+        //when
+        //then
+        assertThrows(BearHibernatingException.class,
+                ()-> bear.eat(1));
+    }
+    @Test
     public void PolarkBearShouldBeInHebernateFrom20NovemberTo15March(){
         //given
         Bear bear = new PolarBear(3);
